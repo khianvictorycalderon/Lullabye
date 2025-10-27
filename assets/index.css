@@ -39,7 +39,20 @@ body {
 }
 
 .hero-cta-button {
-    padding: 1rem;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgb(216, 0, 90);
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.hero-cta-button:hover {
+    background: rgb(255, 51, 136);
 }
 
 /* Tablet View */
