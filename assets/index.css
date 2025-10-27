@@ -25,13 +25,13 @@ body {
 }
 
 .hero-heading {
-    font-size: 3.25rem;
+    font-size: 2rem;
     padding: 0;
     margin: 0;
 }
 
 .hero-sub-heading {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: lighter;
     font-style: italic;
     padding: 0;
@@ -71,7 +71,7 @@ body {
     background: none;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 0.75rem;
     cursor: pointer;
     transition: 0.3s;
     padding: 1rem 2rem 1rem 2rem;
@@ -84,10 +84,24 @@ body {
 
 /* Tablet View */
 @media (min-width: 768px) {
+    .navbar-button {
+        font-size: 1rem;
+    }
+    .hero-sub-heading {
+        font-size: 1.25rem;
+    }
+    .hero-heading {
+        font-size: 2.75rem;
+    }
 }
 
 
 /* Desktop View */
 @media (min-width: 1024px) {
-    
+    .hero-sub-heading {
+        font-size: 1.5rem;
+    }
+    .hero-heading {
+        font-size: 3.25rem;
+    }
 }
