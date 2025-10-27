@@ -184,7 +184,6 @@ body {
 /* ---------- Products Section ---------- */
 .products {
   position: relative;
-  background: url("./assets/products-bg.jpg") center/cover no-repeat;
   color: white;
   padding: 6rem 1.5rem;
   text-align: center;
