@@ -41,3 +41,13 @@ body {
 .hero-cta-button {
     padding: 1rem;
 }
+
+/* Tablet View */
+@media (min-width: 768px) {
+}
+
+
+/* Desktop View */
+@media (min-width: 1024px) {ckground: linear-gradient(130deg, rgb(121, 255, 12), rgb(73, 5, 22));
+    
+}
